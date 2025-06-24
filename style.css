@@ -5,13 +5,18 @@
     display:flex;
     padding: 10px 10px;
     flex-direction:row;
+    justify-content:space-between;
     align-items:center;
     text-decoration:none;
 }
 
-.nav-container .navbar-links{
+.nav-container .right-links{
     padding: 5px 10px;
-    margin-left:auto;
+
+}
+
+.nav-container .central-links{
+    justify-self:center
 }
 
 .nav-container a{
@@ -43,12 +48,21 @@
     object-position:25%, 50%;
 }
 
-.h1{
-    color: #0c59b;
-}
-
 .homepage-body{
+    margin-top:275px;
     display:flex;
     flex-direction:center;
     justify-content:center;
+}
+
+.homepage-body h1{
+    color: #8cb8a7;
+    font-family:'Trebuchet MS', sans-serif;
+    font-size:20px;
+    text-align:center;
+}
+
+.homepage-text{
+    margin-left:10px;
+    margin-right:10px;
 }
