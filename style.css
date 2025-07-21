@@ -28,12 +28,29 @@
     text-align:center
 }
 
-.nav-container a:hover{
-    transition: 0.4s;
-    transition-property:background-color, color;
-    color: #ffffff;
-    background-color:#50c59b;
+/*underline animation, got from a youtube tutorial by Ekin Yaglin https://www.youtube.com/watch?v=n8dPFkT0dpE*/
+.nav-container a{
+    display: inline-block;
+    padding-bottom: 0.25rem;
+    position: relative;
 }
+
+.nav-container a::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width:0;
+    height:2px;
+    background-color:#50c59b;
+    transition:width 0.25s ease-out;
+}
+
+/*---*/
+.nav-container a:hover{
+    width:100%;
+}
+
 
 /*body*/
 .cooltree{
@@ -55,19 +72,20 @@
     flex-direction:column
 }
 
-.homepage-body h1{
+.homepage-text{
+    margin-left:15%;
+    margin-right:15%;
+}
+/*global codes*/
+h1{
+    /*quotes*/
     color: #8cb8a7;
     font-family:'Trebuchet MS', sans-serif;
     font-size:150%;
     text-align:center;
 }
 
-.homepage-text{
-    margin-left:15%;
-    margin-right:15%;
-}
-/*hello*/
-.homepage-text p{
+p{
     text-align:center;
     color: #8cb8a7;
     font-family:'Trebuchet MS', sans-serif;
