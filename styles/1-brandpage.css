@@ -1,0 +1,41 @@
+.b-1-body{
+   display:flex;
+   flex-direction:row;
+   justify-content:flex-start;
+   padding:0 5% 0;
+}
+
+
+.b-1-text{
+   flex-direction:column;
+   justify-self:center;
+   padding: 2.5% 0 75px;
+}
+
+
+.b-1-image{
+   object-fit:cover;
+   width:40%;
+   padding:3.25% 2% 75px
+}
+
+
+.b-2-body{
+   padding:25px 5% 25px;
+   display:flex;
+   flex-direction:row;
+   justify-content:flex-start;
+}
+
+
+.b-2-image{
+   object-fit:cover;
+   width:100%;
+}
+
+
+.b-2-column{
+   flex-direction:column;
+   padding-left:2%;
+   padding-right:2%;
+}

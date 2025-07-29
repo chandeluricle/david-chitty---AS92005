@@ -1,0 +1,22 @@
+.h-page-body-right{
+   margin-top:300px;
+   display:flex;
+   justify-content:flex-end;
+   flex-direction:row;
+}
+
+
+.h-page-text{
+   flex-direction:column;
+   justify-self:center;
+   padding: 100px 5% 225px;
+}
+
+
+.h-page-image{
+   padding-left:25px;
+   object-fit:cover;
+   width:40%;
+   margin-top:75px;
+   margin-bottom:150px;
+}
