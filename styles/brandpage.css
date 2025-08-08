@@ -1,0 +1,136 @@
+/*i want to get out the way that I understand background color
+is redundant when its already changed at the beginning of every html. its
+purely a placeholder colour incase the colour doesn't work*/
+
+
+.b-1-body{
+   display:flex;
+   flex-direction:row;
+   justify-content:flex-start;
+   padding:0 5% 0;
+}
+
+
+.brand-logo{
+   justify-self:center;
+   object-fit:cover;
+   margin:auto;
+}
+
+
+.b-1-text{
+   flex-direction:column;
+   justify-self:center;
+   padding: 2.5% 0 75px;
+}
+
+
+.b-1-image{
+   object-fit:cover;
+   width:30%;
+   padding:3.25% 2% 75px;
+   height:400px;
+}
+
+
+.b-heading{
+   color: #ffffff;
+   background-color:#50ac6d;
+   border-radius:25px;
+   padding:2%;
+   font-size:225%;
+   /*i know the font-size doesn't exactly make sense as h2's size is already defined, but I wanted it a little bit bigger!*/
+}
+
+
+.b-2-body{
+   padding:25px 5% 25px;
+   display:flex;
+   flex-direction:row;
+   justify-content:flex-start;
+}
+
+
+.b-2-column{
+   display:flex;
+   flex-direction:column;
+   padding-left:2%;
+   padding-right:2%;
+   text-align:center;
+}
+
+
+.b-2-column p{
+   color: #ffffff;
+   background-color:#50ac6d;
+   border-radius:25px;
+   padding:10%;
+}
+
+
+.b-2-column p:hover{
+   color: #ffffff;
+   background-color: #62c381;
+   margin-left:-2%;
+   margin-right:-2%;
+   transition: ease, 0.1s;
+}
+
+
+/*i dont know how to make the transition go backwards?? i really wanna ask chatgpt but i cant... dangit mister */
+.b-2-image{
+   transition: ease, 0.15s;
+   object-fit:cover;
+   width:90%;
+   border-radius:100%; /*very proud of myself for discovering this!*/
+}
+
+
+.b-2-image:hover{
+   border-style:solid;
+   border-width:10px;
+   border-color: #6c9e79;
+   padding:10px;
+   margin:-10px;
+   filter:brightness(105%)
+}
+
+
+/*product catalogue for fashion websites*/
+.b-3-body{
+   /*too tired to find a better way for the padding length!*/
+   padding:25px 9% 2% 25px;
+   display:flex;
+   flex-direction:row;
+   justify-content:flex-start;
+}
+
+
+.b-3-column{
+   display:flex;
+   flex-direction:column;
+   padding-left:2%;
+   padding-right:2%;
+   text-align:center;
+}
+
+
+.b-3-image{
+   transition: ease, 0.15s;
+   object-fit:cover;
+   width:100%;
+   border-radius:10%; /*very proud of myself for discovering this!*/
+   padding:10%;
+}
+
+
+.b-3-image:hover{
+   filter:brightness(115%)
+}
+
+
+.b-2-column a{
+   display:inline-block;
+   position:relative;
+   transform-origin:center;
+}

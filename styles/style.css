@@ -1,0 +1,156 @@
+/*homepage*/
+
+/*navbar*/
+.nav-container{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:center;
+  text-decoration:none;
+}
+
+.nav-container a{
+  color: #50c59b;
+  font-family:'Trebuchet MS', sans-serif;
+  font-size:20px;
+  text-decoration:none;
+  padding:10px 12.5px 12.5px;
+  text-align:center;
+  transition: ease, 0.3s;
+}
+
+.nav-container a:hover{
+  text-decoration: none;
+  filter:brightness(120%);
+}
+
+/*dropdown menu*/
+.central-links{
+  display:flex;
+  flex-direction:row;
+}
+
+.dropdown-btn{
+  color: #50c59b;
+  font-family:'Trebuchet MS', sans-serif;
+  font-size:20px;
+  text-decoration:none;
+  padding:10px 12.5px 12.5px;
+  margin-right:5px;
+  text-align:center;
+
+  border:0px;
+  border-radius:20px 20px 0 0;
+  background:white;
+}
+
+.dropdown-btn:hover{
+  color: #ffffff;
+  background-color:#50c59b;
+}
+
+.dropdown-1, .dropdown-2{
+  position:relative;
+  display:inline-block;
+  transition: ease, 3s;
+  border-radius: 20px;
+}
+
+.dropdown-1:hover, .dropdown-2:hover{
+  z-index:1;
+}
+
+.dropdown-links-1, .dropdown-links-2{
+  display:none;
+  position:absolute;
+  background-color: #50c59b;
+  z-index:1;
+}
+
+.dropdown-links-1 a{
+  font-size:16.75px;
+  color: #e2e7e0;
+  display:block;
+}
+
+.dropdown-links-2 a{
+  font-size:18.5px;
+  color: #e2e7e0;
+  display:block;
+}
+
+.dropdown-1:hover .dropdown-links-1, .dropdown-2:hover .dropdown-links-2{
+  display:block;
+}
+
+.dropdown-1:hover .dropdown-btn, .dropdown-2:hover .dropdown-btn{
+  display:block;
+  color: #ffffff;
+  background-color:#50c59b;
+}
+
+/*body*/
+.banner{
+  height: 30%;
+  width: 100%;
+  margin: 0;
+  border: 0;
+  position: absolute;
+  left: 0;
+  object-fit:cover;
+  object-position:25%, 50%;
+}
+
+
+
+
+.page-body{
+  margin-top:300px;
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+}
+
+
+.page-text{
+  margin-left:15%;
+  margin-right:15%;
+  margin-bottom:150px;
+}
+
+
+/*text*/
+h1{
+  color: #50ac6d;
+  font-family:'Trebuchet MS', sans-serif;
+  font-size:300%;
+  text-align:center;
+}
+
+
+h2{
+  /*quotes*/
+  color: #50ac6d;
+  font-family:'Trebuchet MS', sans-serif;
+  font-size:175%;
+  text-align:center;
+}
+
+
+p{
+  margin-top: 50px;
+  text-align:center;
+  color: #50ac6d;
+  font-family:'Trebuchet MS', sans-serif;
+  font-size:17.5px;
+  line-height: 35px;
+}
+
+a{
+  transition: ease, 0.2s;
+  color: #50ac6d;
+}
+
+a:hover{
+  filter:brightness(110%)
+}
